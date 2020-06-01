@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" media="print" href="css/print.css">
+    <title>РК2 ШАронов Илья</title>
+</head>
+<body>
+    <header id="start">
+        <nav>
+            <div class="menu_main">
+                <a href="#start" id="logo"><img src="img/logo.svg" alt="logo"></a>
+                <div class="menu_one">
+                    <ul>
+                        <li><a href="page1.html">Точка кипения</a></li>
+                        <li><a href="page2.html">Кадры ЦЭ</a></li>
+                        <li><a href="page3.html">Университет 2035</a></li>
+                    </ul>
+                </div>
+            </div>
+            <hr>
+            <div class="menu_two">
+                <ul>
+                    <li><a href="#start">Главная</a></li>
+                    <li><a href="#mission_target_tasks">Миссия</a></li>
+                    <li><a href="#mission_target_tasks">Цель</a></li>
+                    <li><a href="#mission_target_tasks">Задачи</a></li>
+                    <li><a href="#strategic">Стратегия</a></li>
+                    <li><a href="#role">Роль</a></li>
+                    <li><a href="#employee_opportunities">Сотрудникам</a></li>
+                    <li><a href="#university_opportunities">Университетам</a></li>
+                </ul>
+            </div>
+        </nav>
+        <div class="main_text">
+            <h1>Работа университетской Точки кипения</h1>
+            <form action="#form_h">
+                <button>Записаться</button>
+            </form>
+        </div>
+    </header>
+
+    <section id="mission_target_tasks">
+        <div class="container">
+            <div class="row">
+                <div class="block_one">
+                    <h1>Миссия Точки кипения</h1>
+                    <p>100% студентов, преподавателей, администрации вовлечены в повестку стратегического развития университета</p>
+                </div>
+                <div class="block_one">
+                    <h1>Цели Точки кипения</h1>
+                    <p>Тестирование способов достижения стратегических задач университета, в том числе поиск новых: быстро, удобно, комплексно</p>
+                </div>
+                <div class="block_one">
+                    <h1>Задачи Точки кипения</h1>
+                    <p>Связать 9 стратегических целей и 20 стратегических проектов с бизнес-интересами внешних и внутренних сообществ университета, внешняя (относительно разработчиков) обратная связь по проектам</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="strategic">
+        <div class="container" id="gr_l">
+            <div class="block_text_l">
+                <h1>Стратегическая цель Точки кипения</h1>
+                <p>Формирование культуры ответственности за выбор личной образовательной и карьерной траектории</p>
+            </div>
+            <img src="img/right_img.jpg" alt="image">
+        </div>
+    </section>
+
+    <section id="role">
+        <div class="container" id="gr_r">
+            <img src="img/left_img.jpg" alt="image">
+            <div class="block_text_r">
+                <h1>Роль в ВУЗу</h1>
+                <p>Площадка проработки стратегических проектов университета (коммуникация студентов, преподавателей, исследователей, администрации, бизнес-сообществ)</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="employee_opportunities">
+        <div class="container">
+            <h1>Возможности для сотрудников</h1>
+            <ul>
+                <li>Экспертность – подтверждение или приобретение статуса эксперта, вовлечение сотрудников в новые экспертные области, направления</li>
+                <li>Привлечение партнеров – статус университета с ТК подтверждает включение в экосистему АСИ и НТИ, новые партнеры, усиление связей с партнерами</li>
+                <li>Новые проекты – идеи и запросы внешних партнеров, а также инициативные проекты от студентов и сотрудников</li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="university_opportunities">
+        <div class="container">
+            <h1>Возможности для университета</h1>
+            <ul>
+                <li>Возможность участия в конкурсах по линии Цифровой экономики</li>
+                <li>Сетевые мероприятия сети Точек Кипения (PR, привлечение экспертов, проектов)</li>
+                <li>Инфраструктура Точек Кипения – онлайн инструменты работы с сообществами, студентами, преподавателями, быстрые коммуникации и прочее</li>
+                <li>Транслирование опыта – сотрудничество с другими университетами по передаче опыта</li>
+                <li>Представление университета в повестке РФ</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container" id="form_h">
+            <h1>Создано Шароновым Ильёй<br><br>группа 191-321<br><br>01.06.2020</h1>
+            <form action="">
+                <p>Ваше Имя</p>
+                <input type="text" name="first_name" maxlength="32"  required>
+                <p>Ваш email</p>
+                <input type="email" name="email" maxlength="32" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$" required><br>
+                <p><input type="checkbox" required>Согласен на обработку личных данных</p>
+                <input type="submit" value="Отправить" >
+            </form>
+        </div>
+    </footer>
+</body>
+</html>
