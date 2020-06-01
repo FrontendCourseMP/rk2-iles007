@@ -23,11 +23,9 @@
             <hr>
             <div class="menu_two">
                 <ul>
-                    <li><a href="#start">Направление</a></li>
-                    <li><a href="#agenda">Повестка</a></li>
-                    <li><a href="#now_future">Сейчас</a></li>
-                    <li><a href="#now_future">Будущее</a></li>
-                    <li><a href="#effects">Эффекты</a></li>
+                    <li><a href="#start">Главная</a></li>
+                    <li><a href="#news">Новости</a></li>
+                    <li><a href="#activity ">Активности</a></li>
                 </ul>
             </div>
         </nav>
@@ -36,7 +34,80 @@
         </div>
     </header>
 
+    <nav>
+        <div class="container" id="informat">
+            <div class="1left">
+                <a href="https://www.facebook.com/2035.university/">Добавить новость</a><br>
+                <a href="https://2035.university/about/">Войти в режим редактирования новостей</a><br>
+            </div>
+            <div class="1right">
+                <div>
+                    <input type="text">
+                    <button>Искать</button>
+                </div>
+                <br>
+                <select name="sort" id="sort">
+                    <option value="">сначала новые</option>
+                    <option value="">сначала старые</option>
+                </select>
+                <select name="filtr" id="filtr">
+                    <option value="">без нового</option>
+                    <option value="">без старого</option>
+                </select>
+                <button>Применить</button>
+            </div>
+        </div>
+    </nav>
 
+    <section id="news">
+        <div class="container">
+            <h1>Новости</h1>
+            <div class="blocks_news">
+                <div class="block">
+                    <img src="img/Intercept.jpg" alt="">
+                    <p>LIVE План «Перехват»</p>
+                    <span>Как организовать преемственность образования «на удаленке»? Опыт Ивановской области</span><br>
+                    <span class="dark">25.04.2020</span>
+                </div>
+                <div class="block">
+                    <img src="img/experts.jpg" alt="">
+                    <p>Востребованные компетенции</p>
+                    <span>Эксперты назвали востребованные компетенции и специальности в сфере образования для цифровой экономики</span><br>
+                    <span class="dark">24.04.2020</span>
+                </div>
+                <div class="block">
+                    <img src="img/Creature.jpg" alt="">
+                    <p>LIVE «Курс – на онлайн»</p>
+                    <span>Создание онлайн-курсов как возможность преодолеть ограничения преподавания «на удаленке»</span><br>
+                    <span class="dark">21.04.2020</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="activity">
+        <div class="container">
+            <h1>Активности</h1>
+            <div class="blocks_news">
+                <div class="block">
+                    <img src="img/volleyball.jpg" alt="">
+                    <div class="text">
+                        <p>Игры в волейбол</p>
+                        <span>В Гомеле состоялось чествование волейбольной команды “Бумпром”</span><br>
+                        <span class="dark">24.04.2020</span>
+                    </div>
+                </div>
+                <div class="block">
+                    <img src="img/basketball.jpg" alt="">
+                    <div class="text">
+                        <p>Игры в баскетбол</p>
+                        <span>Трэй Янг считает, что Тейтум заслужил максимальный контракт</span><br>
+                        <span class="dark">25.04.2020</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <footer>
